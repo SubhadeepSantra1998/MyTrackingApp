@@ -49,8 +49,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    // Architectural Components
-    //implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+     //Architectural Components
+//    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
 
 
     // Room components
@@ -89,4 +89,10 @@ dependencies {
 
     // Easy Permissions
     implementation 'pub.devrel:easypermissions:3.0.0'
+
+    // Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+
+    //implementation 'androidx.lifecycle:lifecycle-service:1.6.10'
 }

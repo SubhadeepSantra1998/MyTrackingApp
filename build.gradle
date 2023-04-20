@@ -7,6 +7,7 @@
 
 buildscript {
     ext {
+        kotlin_version = '1.6.10'
         nav_version = "2.3.0"
         hiltAndroidXVersion = "1.0.0-alpha03"
         hiltVersion = "2.39.1"
@@ -18,7 +19,7 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
 //        //classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.0"
